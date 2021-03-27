@@ -34,4 +34,9 @@ ls
 echo
 ls ..
 echo "-----> Extracting cached Imagick $IMAGICK_CACHE_FILE => $VENDOR_DIR"
+ls -l
+echo
+chmod 700 imagick.so
+ls -l
+echo
 cp $IMAGICK_CACHE_FILE $IMAGICK_INSTALL_FILE
